@@ -20,7 +20,7 @@ const config = Object.freeze({
   APP_MAX_PROMPT_TOKENS: Number(env.APP_MAX_PROMPT_TOKENS) || 1024,
   HUMAN_NAME: env.HUMAN_NAME || '',
   HUMAN_INIT_PROMPT: env.HUMAN_INIT_PROMPT || '',
-  BOT_NAME: env.BOT_NAME || 'GPT Zenny',
+  BOT_NAME: env.BOT_NAME || 'AI',
   BOT_INIT_PROMPT: env.BOT_INIT_PROMPT || '',
   BOT_TONE: env.BOT_TONE || '',
   BOT_DEACTIVATED: env.BOT_DEACTIVATED === 'true' || false,
